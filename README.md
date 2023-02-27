@@ -66,10 +66,11 @@ The purpose of this lab is to both get you familiar with using these non-github 
         Modify the README file to include:
     
         1. The recurrence relation that describes the function's runtime:
-            $$T(n) = aT(n/b) + f(n)$$
+            $$T(n) = 1*T(n/3) + 1$$
             T(n) = 1*T(n/3) + 1
         1. The solution to the recurrence you wrote above as provided by the master theorem:
-            $$T(n) = \Theta()$$
+            $$T(n) = \Theta(log(n))$$
+
             T(n) = Theta()
             Ccrit = log(1)/log(3) = 0
             T(n) = Theta(log(n)
